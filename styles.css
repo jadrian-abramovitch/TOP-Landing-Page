@@ -1,0 +1,136 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 0rem 15rem;
+  color: white;
+  background-color: #1f2937;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+  text-align: center;
+}
+
+.right-side {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.flex-item {
+  flex: 4;
+}
+
+.content-1 {
+  flex: 4;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 15rem;
+}
+
+h1 {
+  color: white;
+}
+
+.subtext {
+  color: white;
+}
+
+img {
+  height: 120px;
+  width: 300px;
+}
+
+.content-2 {
+  flex: 4;
+  padding: 0rem 15rem;
+}
+
+.content-2 h2 {
+  text-align: center;
+}
+
+.content-2 div {
+  display: flex;
+}
+
+.content-3 {
+  background-color: #e5e7eb;
+  flex: 4;
+  text-align: center;
+  padding: 4rem 12rem;
+}
+
+.content-4 {
+  flex: 4;
+  display: flex;
+}
+
+.action-card {
+  background-color: #3882f6;
+  height: 6rem;
+  flex: auto;
+  margin: 4rem 15rem;
+  border-radius: 0.5rem;
+  padding: 1rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.action-card p {
+  color: white;
+}
+
+.right-action button {
+  background-color: #3882f6;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 0.25rem 1.5rem;
+  color: white;
+}
+
+.quote-author {
+  text-align: end;
+  padding: 0rem 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.img-placeholder {
+  height: 7rem;
+  width: 7rem;
+  border: 4px solid #3882f6;
+  border-radius: 10%;
+}
+
+footer {
+  flex: 1;
+  background-color: #1f2937;
+  /* text-align: center; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  flex: auto;
+}
